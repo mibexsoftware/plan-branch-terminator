@@ -54,12 +54,12 @@ environments first before adapting it on your production instance.
 ![https://www.mibexsoftware.com][mibexlogo]
 
 
-[productlogo]: https://raw.githubusercontent.com/mibexsoftware/plan-branch-terminator/master/src/main/resources/images/pluginLogo.png
+[productlogo]: https://raw.githubusercontent.com/mibexsoftware/plan-branch-terminator/master/src/main/resources/images/plugin-logo.png
 [planbranch-deletion]: https://raw.githubusercontent.com/mibexsoftware/plan-branch-terminator/master/src/main/resources/images/plan-branch-deletion.png
 [BAM-13129]: https://jira.atlassian.com/browse/BAM-13129
 [bamboo]: http://www.atlassian.com/bamboo
 [bitbucketserver]: https://www.atlassian.com/software/bitbucket/server
 [releases]: https://github.com/mibexsoftware/plan-branch-terminator/releases
-[mibexlogo]: https://www.mibexsoftware.com/wp-content/uploads/2015/06/mibex.png
+[mibexlogo]: https://raw.githubusercontent.com/mibexsoftware/plan-branch-terminator/master/src/main/resources/images/vendor-logo.png
 [mit]: http://opensource.org/licenses/MIT
 [gh-releases]: https://github.com/mibexsoftware/plan-branch-terminator/releases
