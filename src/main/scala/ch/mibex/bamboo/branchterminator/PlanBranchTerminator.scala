@@ -24,7 +24,7 @@ class PlanBranchTerminator(deletionService: DeletionService, cachedPlanManager: 
       case Nil =>
       case matchingChains =>
         val planKeys = matchingChains.map(_.getPlanKey.toString)
-        log.warn(s"BRANCHTERMINATOR: will delete plans with keys ${planKeys.mkString(", ")}")
+        log.info(s"BRANCHTERMINATOR: will delete plan branches with keys ${planKeys.mkString(", ")}")
         deletionService.deletePlans(planKeys.asJava)
     }
   }
