@@ -1,0 +1,8 @@
+target/
+classes/
+*~
+amps-standalone/
+.idea/**
+out/
+*.iml
+.DS_Store
