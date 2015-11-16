@@ -23,9 +23,11 @@
         <bamboo.data.version>3.2.2</bamboo.data.version>
         <platform.version>3.0.4</platform.version>
         <amps.version>6.1.2</amps.version>
-        <scala.version>2.10.3</scala.version>
+        <scala.major.version>2.10</scala.major.version>
+        <scala.version>${scala.major.version}.3</scala.version>
         <plugin.testrunner.version>1.2.0</plugin.testrunner.version>
         <sonar.language>scala</sonar.language>
+        <specs2.version>2.4.17</specs2.version>
     </properties>
 
     <dependencyManagement>
@@ -233,9 +235,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.10</artifactId>
-            <version>2.2.2</version>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2_${scala.major.version}</artifactId>
+            <version>${specs2.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
