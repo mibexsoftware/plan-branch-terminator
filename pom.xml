@@ -19,10 +19,10 @@
     <packaging>atlassian-plugin</packaging>
 
     <properties>
-        <bamboo.version>5.7.1</bamboo.version>
-        <bamboo.data.version>3.2.2</bamboo.data.version>
+	<bamboo.version>5.10.0-beta01</bamboo.version> <!-- 5.7.1 is more or less the only older version that works locally -->
+        <bamboo.data.version>5.10.0-beta01</bamboo.data.version> <!-- 3.2.2 is the current Bamboo data version, see here https://jira.atlassian.com/browse/BAM-14798 -->
         <platform.version>3.0.4</platform.version>
-        <amps.version>6.1.2</amps.version>
+        <amps.version>6.2.1</amps.version>
         <scala.major.version>2.10</scala.major.version>
         <scala.version>${scala.major.version}.3</scala.version>
         <plugin.testrunner.version>1.2.0</plugin.testrunner.version>
